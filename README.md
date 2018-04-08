@@ -6,6 +6,7 @@ Interactive visualization: possible to choose radiuses for torus;  p,q parameter
 ## Requirements
 ```
 (which were hard to satisfy actually)
+
 Python 2.7
 Numpy
 Mayavi + Vtk
@@ -33,9 +34,8 @@ Changing parameters of the curves             |  Changing opacity
 :-------------------------:|:-------------------------:
 ![](https://github.com/ttaggg/torus/blob/master/images/tksnap1.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot5.png)
 
-### Not always good
 
-  Drawing the curve    |  Result (blue curve)
+  Drawing the curve    |  Not-So-Good-Result (blue curve)
 :-------------------------:|:-------------------------:
 ![](https://github.com/ttaggg/torus/blob/master/images/tksnap2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot6.png)
 
