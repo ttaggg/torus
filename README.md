@@ -14,6 +14,18 @@ Traits
 Tkinter
 ```
 
+## How to start
+shapes.py contains hyperparameters for torus and parameters for everything.
+
+visual.py actually performs drawing and interactions.
+
+Therefore just enter
+```
+python visual.py
+```
+in command-line and hope it works.
+
+
 ## How it looks like
 
 Intitial position             |  You can rotate torus freely with a mouse
