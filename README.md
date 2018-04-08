@@ -53,7 +53,7 @@ Changing parameters of the curves             |  Changing opacity
 ![](https://github.com/ttaggg/torus/blob/master/images/tksnap2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot6.png)
 
 
-  Drawing the curve    |  Supposed to be like that? (blue curve)
+  Drawing the curve    |  Probably supposed to be like that (blue curve)
 :-------------------------:|:-------------------------:
 ![](https://github.com/ttaggg/torus/blob/master/images/tksnap3.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot7.png)
 
