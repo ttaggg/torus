@@ -21,7 +21,7 @@ Intitial position             |  You can rotate torus freely with a mouse
 
 ## Parameters
 
-Changing parameters or the curves             |  Changing opacity
+Changing parameters of the curves             |  Changing opacity
 :-------------------------:|:-------------------------:
 ![](https://github.com/ttaggg/torus/blob/master/images/snapshot2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot3.png)
 
@@ -39,3 +39,5 @@ Changing parameters or the curves             |  Changing opacity
 ![](https://github.com/ttaggg/torus/blob/master/images/tksnap2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot6.png)
 
 
+## Disclaimer
+I hope I did not mess this up, however I am not that sure.
