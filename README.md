@@ -19,8 +19,23 @@ Intitial position             |  You can rotate them freely
 ![](https://github.com/ttaggg/torus/blob/master/images/snapshot.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot1.png)
 
 
-## Changing parameters of the curves
-![](https://github.com/ttaggg/torus/blob/master/images/snapshot2.png) 
+## Parameters
 
-## Changing opacity
-![](https://github.com/ttaggg/torus/blob/master/images/snapshot3.png) 
+Changing parameters or the curves             |  Changing opacity
+:-------------------------:|:-------------------------:
+![](https://github.com/ttaggg/torus/blob/master/images/snapshot2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot3.png)
+
+
+## Adding curve manually
+
+  Drawing the curve    |  Result (blue curve)
+:-------------------------:|:-------------------------:
+![](https://github.com/ttaggg/torus/blob/master/images/tksnap1.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot3.png)
+
+### Not always good
+
+  Drawing the curve    |  Result (blue curve)
+:-------------------------:|:-------------------------:
+![](https://github.com/ttaggg/torus/blob/master/images/tksnap2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot6.png)
+
+
