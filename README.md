@@ -13,4 +13,4 @@ Tkinter
 ```
 
 ## 
-![Image of Yaktocat](https://github.com/ttaggg/torus/blob/master/images/snapshot.png)
+![](https://github.com/ttaggg/torus/blob/master/images/snapshot.png)![](https://github.com/ttaggg/torus/blob/master/images/snapshot1.png)
