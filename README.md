@@ -1,4 +1,4 @@
-# Interactive visualization of homotopy classes of simple closed curves on torus
+# Interactive visualization of simple closed curves on torus representing different homotopy classes
 
 ## Description
 Interactive visualization: possible to choose radiuses for torus;  p,q parameters for curves; opacity level; draw an arbitrary curve using mouse as a brush. Made using Mayavi library. 
