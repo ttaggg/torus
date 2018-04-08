@@ -7,11 +7,12 @@ Interactive visualization: possible to choose radiuses for torus;  p,q parameter
 ```
 (which were hard to satisfy actually)
 
-Python 2.7
-Numpy
-Mayavi + Vtk
-Traits
-Tkinter
+python 2.7
+numpy
+mayavi
+vtk
+traits
+tkinter
 ```
 
 ## How to start
