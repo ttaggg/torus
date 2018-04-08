@@ -1,10 +1,11 @@
 # Interactive visualization of simple closed curves on torus representing different homotopy classes
 
 ## Description
-Interactive visualization: possible to choose radiuses for torus;  p,q parameters for curves; opacity level; draw an arbitrary curve using mouse as a brush. Made using Mayavi library. 
+Interactive visualization: possible to choose radiuses for torus;  p,q parameters for curves; opacity level; draw an arbitrary curve using mouse as a brush. Made using MayaVi library. 
 
 ## Requirements
 ```
+(which were hard to satisfy actually)
 Python 2.7
 Numpy
 Mayavi + Vtk
