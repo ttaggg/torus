@@ -1,7 +1,7 @@
 # Interactive visualization of simple closed curves on torus representing different homotopy classes
 
 ## Description
-Interactive visualization: possible to choose radiuses for torus;  p,q parameters for curves; opacity level; draw an arbitrary curve using mouse as a brush. Made using MayaVi library. 
+Interactive visualization: possible to choose radiuses for torus;  p,q parameters for curves; opacity level; draw an arbitrary curve using mouse as a brush. Made using MayaVi library.
 
 ## Requirements
 ```
@@ -51,6 +51,11 @@ Changing parameters of the curves             |  Changing opacity
   Drawing the curve    |  Not-So-Good-Result (blue curve)
 :-------------------------:|:-------------------------:
 ![](https://github.com/ttaggg/torus/blob/master/images/tksnap2.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot6.png)
+
+
+  Drawing the curve    |  Supposed to be like that? (blue curve)
+:-------------------------:|:-------------------------:
+![](https://github.com/ttaggg/torus/blob/master/images/tksnap3.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot7.png)
 
 
 ## Disclaimer
