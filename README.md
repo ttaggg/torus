@@ -30,7 +30,7 @@ Changing parameters or the curves             |  Changing opacity
 
   Drawing the curve    |  Result (blue curve)
 :-------------------------:|:-------------------------:
-![](https://github.com/ttaggg/torus/blob/master/images/tksnap1.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot3.png)
+![](https://github.com/ttaggg/torus/blob/master/images/tksnap1.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot5.png)
 
 ### Not always good
 
