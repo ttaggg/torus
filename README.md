@@ -12,5 +12,15 @@ Traits
 Tkinter
 ```
 
-## 
-![](https://github.com/ttaggg/torus/blob/master/images/snapshot.png)![](https://github.com/ttaggg/torus/blob/master/images/snapshot1.png)
+## How it looks like
+
+Intitial position             |  You can rotate them freely
+:-------------------------:|:-------------------------:
+![](https://github.com/ttaggg/torus/blob/master/images/snapshot.png)  |  ![](https://github.com/ttaggg/torus/blob/master/images/snapshot1.png)
+
+
+## Changing parameters of the curves
+![](https://github.com/ttaggg/torus/blob/master/images/snapshot2.png) 
+
+## Changing opacity
+![](https://github.com/ttaggg/torus/blob/master/images/snapshot3.png) 
