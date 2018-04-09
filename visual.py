@@ -12,10 +12,10 @@ from shapes import *
 #################
 class Visualization(HasTraits):
     # parameters that can be changed interactively
-    p = Range(0, 30, 1)
-    q = Range(0, 30, 1)
-    p2 = Range(0, 30, 3)
-    q2 = Range(0, 30, 2)
+    p = Range(-20, 20, 1)
+    q = Range(-20, 20, 1)
+    p2 = Range(-20, 20, 3)
+    q2 = Range(-20, 20, 2)
     op = Enum(1, 0.75, 0.5, 0.25, 0)
 
     scene = Instance(MlabSceneModel, ())
