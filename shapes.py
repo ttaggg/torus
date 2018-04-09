@@ -6,49 +6,57 @@ import Tkinter as tk
 #######################
 ### HYPERPARAMETERS ###
 #######################
+
+# radii of the two circles for torus
 R = 3
 r = 2
 
-a = 1
-b = 0
-s = 1
+## # parameters for conformal torus, which did not work out
+## a = 1
+## b = 0
+## s = 1
 
+# number of points and angles for drawing the curve and torus
 n = 1000
 t = np.linspace(0, 1, n)
 tt = np.linspace(0, 1, 10*n)
 theta, phi = np.meshgrid(2.*pi*t, 2.*pi*t)
-
-eps = 0.001
 #######################
 
 
 ##############
 ### SHAPES ###
 ##############
+# just a regular torus
 def torus(theta=theta, phi=phi):
         return [(R + r*cos(theta))*cos(phi),
                 (R + r*cos(theta))*sin(phi),
                 r*sin(theta)]
 
-# # this one refuse to work for some reason
-# def torusConformal(a=a, b=b):
-#         # by "Conformal Tiling on a Torus", Sullivan
-#         denom = (sqrt(a**2. + b**2.) - b*cos(theta/b))
-#         x = (a*cos(phi/a))/denom
-#         y = (a*sin(phi/a))/denom
-#         z = (b*sin(theta/b))/denom
-#         return [x,y,z]
+## # this one refuse to work for some reason
+## def torusConformal(a=a, b=b):
+##         # by "Conformal Tiling on a Torus", Sullivan
+##         denom = (sqrt(a**2. + b**2.) - b*cos(theta/b))
+##         x = (a*cos(phi/a))/denom
+##         y = (a*sin(phi/a))/denom
+##         z = (b*sin(theta/b))/denom
+##         return [x,y,z]
 
+# curve that corresponds to (p,q) primitive element of Z^2
+# actually here p,q are not necessary coprime
 def curve(p, q, R=R, r=r):
     return [(R + r*cos(p*2.*pi*tt))*cos(q*2.*pi*tt),
             (R + r*cos(p*2.*pi*tt))*sin(q*2.*pi*tt),
             r*sin(p*2.*pi*tt)]
 
+# arbitrary curve mapped on torus
 def curveArbitrary(u,v, R=R, r=r):
     return [(R + r*cos(2.*pi*u))*cos(2.*pi*v),
             (R + r*cos(2.*pi*u))*sin(2.*pi*v),
             r*sin(2.*pi*u)]
 
+# tkinter-based function needed for input of arbitrary curve by drawing in [0,10]x[0,10], 1000x1000 pixels
+# returns coordinates of pixels in the curve with respect to [0,10]x[0,10] scale
 def getLine():
     coordinates = []
     lastx, lasty = 0, 0
@@ -88,6 +96,3 @@ def getLine():
     root.mainloop()
     return (coordinates)
 ##############
-
-
-#################
