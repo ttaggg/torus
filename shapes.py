@@ -49,6 +49,12 @@ def curve(p, q, R=R, r=r):
             (R + r*cos(p*2.*pi*tt))*sin(q*2.*pi*tt),
             r*sin(p*2.*pi*tt)]
 
+# same as curve-function, twists along meridian and longitude are added separately
+def curveDehn(p, q, n_longi = 0, m_meri = 0, R=R, r=r):
+    return [(R + r*cos(p*2.*pi*tt + 2*pi*m_meri*tt))*cos(q*2.*pi*tt + 2*pi*n_longi*tt),
+            (R + r*cos(p*2.*pi*tt + 2*pi*m_meri*tt))*sin(q*2.*pi*tt + 2*pi*n_longi*tt),
+            r*sin(p*2.*pi*tt + 2*pi*m_meri*tt)]
+
 # arbitrary curve mapped on torus
 def curveArbitrary(u,v, R=R, r=r):
     return [(R + r*cos(2.*pi*u))*cos(2.*pi*v),

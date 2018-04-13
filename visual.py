@@ -51,6 +51,8 @@ class Visualization(HasTraits):
         self.plot = self.scene.mlab.plot3d( *curve(self.p, self.q) , color = (1,0,0))
         self.plot2 = self.scene.mlab.plot3d( *curve(self.p2, self.q2) , color = (0,1,0))
         self.plot3 = self.scene.mlab.plot3d( *curveArbitrary(self.u,self.v) , color = (0,0,1))
+        # self.scene.mlab.plot3d( *curveDehn(1, 0, n_longi=0, m_meri=1) , color = (0,1,0))
+
     # keep track on changes in parameters and adjust the model accordingly
     @on_trait_change('p')
     def update_p(self):
